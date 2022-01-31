@@ -1,2 +1,3 @@
 #!/bin/bash
 set -e
+echo "jovyan ALL = (ALL) ALL" >> /etc/sudoers
