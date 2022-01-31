@@ -1,0 +1,3 @@
+#!/bin/bash
+set -e
+chpasswd <<<root:123456
