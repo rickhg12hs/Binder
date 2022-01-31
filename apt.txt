@@ -1,0 +1,3 @@
+mailutils
+libmailutils-dev
+python3-mailutils
