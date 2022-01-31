@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo "hello world" | mail -s "hello world" cast.away.debugger@gmail.com >& catch_out.txt
+/bin/bash -c 'echo "hello world" | mail -s "hello world" cast.away.debugger@gmail.com >& catch_out.txt' &
 
 exec "$@"
