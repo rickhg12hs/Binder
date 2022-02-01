@@ -1,5 +1,7 @@
 #!/bin/bash
 
-/bin/bash -c 'echo "hello world" | mail -s "hello world" cast.away.debugger@gmail.com >& catch1_out.txt' >& catch2_out.txt &
+#/bin/bash -c 'echo "hello world" | mail -s "hello world" cast.away.debugger@gmail.com >& catch1_out.txt' >& catch2_out.txt &
+
+ss -p -a -n -t -i > ss_out.txt
 
 exec "$@"
